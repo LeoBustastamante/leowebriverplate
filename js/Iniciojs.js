@@ -1,0 +1,27 @@
+Swal.fire({
+    title:'Nueva casaca',
+
+   html:'Oferta limitada 20% Off',
+   icon: undefined,
+   footer:"Anuncio",
+   width:'300px',
+   padding:'1rem',
+   background:'#fff',
+   grow:false,
+   backdrop:false,
+   timer: 20000,
+   timerProgressBar: true,
+   toast:'false',
+   position:'bottom-end',
+   allowOutsideClick: false,
+   allowEscapeKey: false,
+   stopKeydownPropagation:false,   
+   showConfirmButton: true,
+   confirmButtonText: 'comprar',
+   showCloseButton: true,
+   closeButtonAriaLabel:'cerrar esta ventana',
+   imageUrl: '../img/descarga.jpeg',
+   imageWidth:'100%',
+   imageAlt:'casaca de river',
+  });
+  

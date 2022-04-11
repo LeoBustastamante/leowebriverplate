@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h2,h3,h4{
+    color: aliceblue;
+}
+h5{
+    color: rgb(5, 5, 5);
+}
+.fondo{
+    background-image:url(../img/fondoinicio.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+.lienzo{
+    background-color:#212529;
+
+}
+
+.slide{
+    width: 600px;
+    height: 600px;
+    margin-left: 20%;
+    
+}
+
+.d-flex{
+margin-left: 0%;
+
+
+}

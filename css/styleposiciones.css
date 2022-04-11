@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h4{
+    color:black;
+}
+.fondo{
+    background-image:url(../img/fondoinicio.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.puestos{
+    width: 30%;
+    height: 75%;
+    border: groove;
+    background-image: url(../img/posiciones.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin-left: 15%;
+    margin-left: 15%;
+ 
+    
+}
+
+.goles{
+    width: 30%;
+    height: 75%;
+    border: groove;
+    background-image: url(../img/goles.webp);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin-left: 15%;
+    margin-left: 15%;
+ 
+    
+ 
+    
+}
+
+.tablas{
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: center;
+    
+}
+
+
